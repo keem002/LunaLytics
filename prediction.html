@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Period Predictor</title>
+    <link rel="stylesheet" href="prediction.css">
+</head>
+<body>
+    <h1>Predict Your Next Period</h1>
+    <form id="periodForm">
+        <label for="startDate">Start Date of Last Period:</label>
+        <input type="date" id="startDate" name="startDate" required>
+        <label for="endDate">End Date of Last Period:</label>
+        <input type="date" id="endDate" name="endDate" required>
+        <button type="submit">Predict</button>
+    </form>
+    <div id="prediction"></div>
+    <script src="prediction.js"></script>
+</body>
+</html>

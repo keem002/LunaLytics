@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left, #FD398B,#FD398B,#FF90BF
+, #FFA0C8);
+
+    font-family: Arial, sans-serif;
+}
+
+.center-v, .center-h {
+    display: flex;
+}
+
+.center-v {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.center-h {
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    border: 5px;
+    border-color: black;
+    outline: none;
+    border-radius: 5px;
+    background:white; /* Gradient pink button */
+    cursor: pointer;
+    color: #ff1493;
+    font-size: 1.2em;
+    transition: background 0.5s;
+}
+
+button:hover {
+    color: white;
+    background: linear-gradient(to left, #ff1493, #ff69b4); /* Gradient pink button hover effect */
+}
+
+
+#photo > img{
+
+    border-radius: 120px;
+    margin-top: 0px;
+    margin-bottom: 450px;
+    margin-right: -700px;
+    margin-left: 80px;
+
+}
+
+#text{
+    text-align: center ;
+    color: white;
+    font-size: 20px;
+}
+
+
+

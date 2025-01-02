@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to left, white, #FFA0C8);
+}
+
+#Ques {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #FFA0C8;
+}
+
+div {
+    text-align: center;
+}
+
+.submit-button {
+    background-color: white;
+    color: #000000;
+    border: solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #FFB6C1;
+}

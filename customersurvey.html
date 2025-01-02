@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunaLytics-Survey</title>
+    <link rel="stylesheet" href="customersurvey.css">
+</head>
+<body>
+    <div id="Ques">
+        <h2>To precisely monitor the dates of your menstruation, kindly respond to the following questions.</h2>
+        <br>
+
+        <form action="submit_survey.php" method="post">
+
+            <section><h4>Enter your Name</h4>
+                <input type="text" name="Name">
+            </section>
+<br>
+            <section>
+                <h4>Enter Age </h4>
+                <input type="number" name="Age">
+            </section>
+            <br>
+
+            <section><h4>Enter your Weigth (in Kgs)</h4>
+                <input type="number" name="Weight">
+            </section>
+<br>
+            <section><h4>Enter your Height (in Cms)</h4>
+                <input type="number" name="height">
+            </section>
+            <section>
+                <h4>What is the date of your last menstrual period?</h4>
+                <input type="date" name="lastPeriod">
+            </section>
+            <br>
+            
+            <section>
+                <h4>How long does your typical menstrual cycle last?</h4>
+                <input type="number" name="cycleLength">
+            </section>
+            <br>
+            <section>
+                <h4>Do you experience any symptoms before or during your period?</h4>
+                <input type="radio" id="cramps" name="symptoms">
+                <label for="cramps">Cramps</label><br>
+                <input type="radio" id="bloating" name="symptoms">
+                <label for="bloating">Bloating</label><br>
+                <input type="radio" id="moodSwing" name="symptoms">
+                <label for="moodSwing">Mood Swing</label><br>
+                <input type="radio" id="otherSymptom" name="symptoms">
+                <label for="otherSymptom">Other <input type="text" name="otherSymptomText"></label><br>
+            </section>
+            <br>
+            <section>
+                <h4>How have you been tracking your menstrual cycle before?</h4>
+                <input type="radio" id="calendar" name="trackingMethod">
+                <label for="calendar">Calendar</label><br>
+                <input type="radio" id="app" name="trackingMethod">
+                <label for="app">App</label><br>
+                <input type="radio" id="journal" name="trackingMethod">
+                <label for="journal">Journal/Diary</label><br>
+                <input type="radio" id="otherTracking" name="trackingMethod">
+                <label for="otherTracking">Other <input type="text" name="otherTrackingText"></label><br>
+            </section>
+            <br>
+            <section>
+                <h4>Have you noticed any patterns or irregularities in your menstrual cycle?</h4>
+                <p>Yes <input type="checkbox" name="patterns"></p>
+                <p>No <input type="checkbox" name="patterns"></p>
+            </section>
+            <br>
+            <section>
+                <h4>How would you describe the flow of your period?</h4>
+                <input type="radio" id="light" name="flow">
+                <label for="light">Light</label><br>
+                <input type="radio" id="moderate" name="flow">
+                <label for="moderate">Moderate</label><br>
+                <input type="radio" id="heavy" name="flow">
+                <label for="heavy">Heavy</label><br>
+            </section>
+            <br>
+            <section>
+                <h4>Have you been diagnosed with any menstrual-related health conditions, such as PCOS or endometriosis?</h4>
+                <p>Yes <input type="checkbox" name="diagnosis"><input type="text" name="diagnosisText"></p>
+                <p>No <input type="checkbox" name="diagnosis"></p>
+            </section>
+            <br>
+            <section>
+                <h4>Are you interested in using a menstrual cycle tracking app like ours to help monitor and manage your menstrual health?</h4>
+                <p>Yes <input type="checkbox" name="interest"></p>
+                <p>No <input type="checkbox" name="interest"></p>
+            </section>
+            <br>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

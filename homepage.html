@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menstrual Cycle Tracker</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="options.html">Options</a></li>
+                
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="loginpage.html">Login/SignUp</a></li>
+
+            </ul>
+        </nav>
+        <img src="banner.png" alt="Banner Image" class="banner">
+    </header>
+    <main>
+        <div class="calendar">
+            <h2>Menstrual Cycle Tracker</h2>
+            <input type="date" id="periodDate" placeholder="Enter last period date">
+            <input type="number" id="periodDuration" placeholder="Enter period duration in days">
+            <button onclick="addPeriodDate()">Add Period Date</button>
+            <div id="calendar"></div>
+        </div>
+    </main>
+
+    <div id="calendarContainer">
+        <div id="calendar"></div>
+    </div>
+    
+    
+    <footer>
+        <!-- Your footer content goes here -->
+    </footer>
+    <script src="homepage.js"></script>
+</body>
+</html>
